@@ -1,0 +1,13 @@
+.logo {
+width: 75%;
+align-items:start;
+}
+
+#logo_img {
+    width: 600px;
+    height: 600px;
+}
+.links_cabecalho{
+width: 50%;
+align-items: end;
+}
