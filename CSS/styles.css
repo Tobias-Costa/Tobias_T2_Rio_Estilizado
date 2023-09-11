@@ -1,13 +1,127 @@
-.logo {
-width: 75%;
-align-items:start;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-#logo_img {
-    width: 600px;
-    height: 600px;
+body{
+    background-color: #ECEBE9;
+    height: 100vh;
+    width: 100vw;
 }
-.links_cabecalho{
-width: 50%;
-align-items: end;
+
+header{
+    display: inline-flex;
+    align-items: start;
+    justify-content: left;
+    width: 100vw;
+    height: 10vh;
+    background-color: #ECEBE9; 
+    position: fixed;
+/* linear gradient */
+}
+
+.header-logo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;   
+}
+
+.header-logo-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    margin-right: 0.5%;
+}
+
+.header-logo-img img {
+    width: 4.5rem;
+    height: 4rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 20%;
+    height: 100%;
+}
+
+nav li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li a{
+    color: #000;
+}
+
+.header-seta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+
+.header-seta img{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 89vh;
+}
+
+.main-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5%;
+}
+
+.first-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+}
+
+.first-line-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.first-line-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 90%;
+}
+
+.first-line-img img{
+    width: 90%;
+    height: 100%;
 }
