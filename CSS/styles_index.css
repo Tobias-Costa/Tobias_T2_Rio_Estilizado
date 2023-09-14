@@ -22,11 +22,11 @@ hr {
 body{
     background-color: #ECEBE9;
     height: 100vh;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 header{
-    width: 100vw;
+    /* width: 100vw; */
     height: 10vh;
     display: flex;
     align-items: start;
