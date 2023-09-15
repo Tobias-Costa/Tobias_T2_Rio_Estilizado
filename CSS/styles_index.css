@@ -106,6 +106,7 @@ main{
     align-items: center;
     width: 100%;
     height: 40px;
+    margin-bottom: 50px;
 }
 
 .first-line{
@@ -165,7 +166,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 55%;
+    width: 50%;
     height: 90%;
     flex-direction: column;
     /* font-size: larger; */
@@ -184,7 +185,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     height: 60%;
     flex-direction: column;
     /* font-size: larger; */
@@ -207,8 +208,7 @@ main{
 footer{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
     width: 100%;
     height: 80%;
@@ -219,8 +219,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 45%;
+    width: 50%;
 }
 
 table, th, td{
@@ -230,19 +229,17 @@ table, th, td{
 }
 
 table{
-    width: 80%;
+    width: 90%;
 }
 
 .footer-img{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 55%;
+    width: 50%;
 }
 
 .footer-img a{
-    margin: 5px;
-    width: 100%;
+    width: 80%;
     height: 70%;
 }
