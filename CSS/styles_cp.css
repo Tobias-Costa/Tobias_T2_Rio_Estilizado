@@ -55,7 +55,8 @@ header{
     display: flex;
     align-items: start;
     justify-content: left;
-    background-color: #ffffff;
+    background: linear-gradient(to right, #ff3632, #ff1d18, #ff4f4b);
+    color: white;
     border-bottom: 1.5px solid #000000;
 }
 
@@ -80,6 +81,7 @@ header{
 .header-logo-img img {
     width: 4.5rem;
     height: 4rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(308deg) brightness(106%) contrast(103%);
 }
 nav{
     display: flex;
@@ -99,7 +101,7 @@ nav li{
 nav li a{
     position: relative;
     font-family: 'Poppins', sans-serif;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 0.5px;
     padding: 0 10px;
@@ -135,6 +137,7 @@ nav li a:hover:after{
 .header-seta img{
     width: 2rem;
     height: 2rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(308deg) brightness(106%) contrast(103%);
 }
 
 main{
@@ -379,4 +382,5 @@ footer{
 footer img{
     width: 25%;
     height: 25%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(308deg) brightness(106%) contrast(103%);
 }
